@@ -26,3 +26,6 @@ Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları t
 1. Projeyi klonlayın:
    ```bash
    git clone [https://github.com/mirzatceylan-dev/staj-proje-1.git](https://github.com/mirzatceylan-dev/staj-proje-1.git)
+2. Proje dizinine gidin:  >  cd proje1
+3. Gerekli paketleri yükleyin:  > npm install --legacy-peer-deps
+Uygulamayı başlatın:   >   npm run dev
