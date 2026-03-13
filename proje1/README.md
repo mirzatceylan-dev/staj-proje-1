@@ -1,16 +1,28 @@
-# React + Vite
+# 📚 Kitap Emanet Takip Sistemi (Staj Proje-1)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, bir kütüphane veya kişisel kitap koleksiyonu için geliştirilmiş, modern arayüze sahip bir **Kitap Emanet Takip** uygulamasıdır. Kullanıcıların kitap envanterini yönetmesini, emanet verilen kişilerin bilgilerini tutmasını ve bu verileri tarayıcı hafızasında saklamasını sağlar.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Tam CRUD Operasyonları:** Kitap ekleme, listeleme, durum güncelleme ve silme işlemleri.
+- **Gelişmiş Emanet Takibi:** Kitabı alan kişinin isim-soyisim, telefon ve teslim tarihi bilgilerini kaydetme.
+- **Dinamik Arama ve Filtreleme:** Kitap adına, yazara veya emanet alan kişiye göre anlık arama yapabilme. Ayrıca kategorilere göre filtreleme seçeneği.
+- **Kalıcı Veri (LocalStorage):** Sayfa yenilense veya tarayıcı kapatılsa dahi verilerin kaybolmaması için `localStorage` entegrasyonu.
+- **Modern Animasyonlar:** Kartların eklenmesi, silinmesi ve filtrelenmesi sırasında `Framer Motion` ile sağlanan akıcı geçişler.
+- **Responsive Tasarım:** Tailwind CSS kullanılarak oluşturulmuş, mobil ve masaüstü uyumlu (Dashboard tipi) arayüz.
 
-## React Compiler
+## 🛠️ Kullanılan Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Framework:** React (Vite 8)
+- **Styling:** Tailwind CSS (v4)
+- **Animations:** Framer Motion
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **Version Control:** Git & GitHub
 
-## Expanding the ESLint configuration
+## 🔧 Kurulum ve Çalıştırma
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+
+1. Projeyi klonlayın:
+   ```bash
+   git clone [https://github.com/mirzatceylan-dev/staj-proje-1.git](https://github.com/mirzatceylan-dev/staj-proje-1.git)
